@@ -1,0 +1,26 @@
+
+
+
+
+GET http://localhost:3000/gatos/1 HTTP/1.1
+
+###
+POST http://localhost:3000/gatos HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombreMascota": "rebelion"
+    
+}
+
+###
+PUT http://localhost:3000/gatos/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombreMascota": "kikin"
+    
+}
+
+###
+delete http://localhost:3000/perros/2 HTTP/1.1

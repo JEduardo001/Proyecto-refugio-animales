@@ -1,0 +1,81 @@
+{
+    "gatos": [
+        {
+            "IdMascota": 1,
+            "nombreMascota": "Luna",
+            "edad": 3,
+            "raza": "Siamés",
+            "fotoMascota": "luna.jpg"
+        },
+        {
+            "IdMascota": 2,
+            "nombreMascota": "kikin",
+            "edad": 2,
+            "raza": "Persa",
+            "fotoMascota": "simba.jpg"
+        },
+        {
+            "id": 3,
+            "nombreMascota": "rebelion"
+        }
+    ],
+    "perros": [
+        {
+            "IdMascota": 1,
+            "nombreMascota": "Max",
+            "edad": 5,
+            "raza": "Labrador",
+            "fotoMascota": "max.jpg"
+        }
+    ],
+    "mascotasEnAdopcion": [
+        {
+            "idMascota": 1,
+            "categoria": "Gato"
+        }
+    ],
+    "controlVacunas": [
+        {
+            "idMascota": 1,
+            "categoria": "Gato",
+            "vacunaRabia": true,
+            "vacunaParvovirosis": false
+        }
+    ],
+    "reporteMascotas": [
+        {
+            "idMascota": 1,
+            "categoria": "Gato",
+            "maltrato": false,
+            "perdido": false
+        }
+    ],
+    "seguimientoReporte": [
+        {
+            "idMascota": 1,
+            "categoria": "Gato",
+            "adoptado": true,
+            "fechaIngreso": "2024-04-20"
+        }
+    ],
+    "mascotasAdoptadas": [
+        {
+            "idMascota": 1,
+            "categoria": "Gato",
+            "fechaAdopcion": "2024-04-15",
+            "nombreTutor": "Ana",
+            "telefonoTutor": "123456789",
+            "emailTutor": "ana@example.com"
+        }
+    ],
+    "usuariosAdministradores": [
+        {
+            "idUsuario": 1,
+            "telefono": "555-1234",
+            "email": "admin1@example.com",
+            "nombre": "Carlos",
+            "apellidoPaterno": "González",
+            "apellidoMaterno": "López"
+        }
+    ]
+}
